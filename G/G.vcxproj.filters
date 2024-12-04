@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="IHMM">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GG">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GG\composant">
+      <UniqueIdentifier>{8fafae71-76ac-4348-9144-77ff2dfa9cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GG\servicee">
+      <UniqueIdentifier>{9c7ea1eb-7931-4a40-9d3d-de27c717dfcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GG\ihm">
+      <UniqueIdentifier>{43c0b07d-3a16-4ba9-8012-3bc0bcb43aaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cellule.h">
+      <Filter>GG\composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Grille.h">
+      <Filter>GG\composant</Filter>
+    </ClInclude>
+    <ClInclude Include="JeuDeLaVie.h">
+      <Filter>GG\servicee</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>GG\ihm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cellule.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Grille.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="JeuDeLaVie.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>GG</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
